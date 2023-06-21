@@ -22,8 +22,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-openai_api_key = os.getenv('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')
-openai_api_key = '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'
+openai_api_key = os.getenv('OPENAI_API_KEY', 'YourAPIKeyIfNotSet')
 
 ##=================================
 ##     S T R E A M L I T
